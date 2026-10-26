@@ -1,0 +1,7 @@
+print("My Calculator - by Khushbu")
+a = int(input("Pehla number: "))
+b = int(input("Dusra number: "))
+print("Jod:", a + b)
+print("Ghatav:", a - b)
+print("Guna:", a * b)
+print("Bhaag:", a / b)
