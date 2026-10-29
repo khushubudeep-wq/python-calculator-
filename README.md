@@ -13,10 +13,12 @@ Hi! I'm Khushbu from Saintala, Odisha. This is my first Python project on my 730
 
 ### 💻 Code Example
 ```python
+
+
 num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: ")).  
-print(f"Result: {num1 + num2}"
-````
+num2 = int(input("Enter second number: "))
+print(f"Result: {num1 + num2}")
+```
 ### 🤝 Connect With Me
 - [LinkedIn](https://www.linkedin.com/in/khushubu-deep-120200447)
 - Location: Saintala, Odisha | Goal: Remote Data Analyst by 18
