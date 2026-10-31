@@ -22,17 +22,19 @@ op = input("Enter operator (+, -, *, /): ")
 ## check the first the first  condition independently use if.
 if op == '+':
     print(f"Result: {num1 + num2}")
+
 ## check the next condition only if the previous one is false use elif
 elif op == '-':
     print(f"Result: {num1 - num2}")
 elif op == '*':
     print(f"Result: {num1 * num2}")
 elif op == '/':
+
 ## Inner check to prevent division zero.
     if num2 == 0:
         print("Error: Division by zero is not allowed!")
-## Executes if non of the above operators match.
 
+## Executes if non of the above operators match.
     else:
         print(f"Result: {num1 / num2}")
 else:
